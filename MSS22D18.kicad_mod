@@ -1,60 +1,19 @@
-PCBNEW-LibModule-V1   30/06/2017-16:12:36
-$INDEX
-SWITCH_-_SLIDE:_SMD__2P2T_(MSS22D18)
-$EndINDEX
-$MODULE SWITCH_-_SLIDE:_SMD__2P2T_(MSS22D18)
-Po 0 0 0 15 00200000 00000000 ~~
-Li SWITCH_-_SLIDE:_SMD__2P2T_(MSS22D18)
-Cd 
-Kw 
-Sc 00000000
-Op 0 0 0
-At SMD
-DS -1781 -698 -1781 698 50 21
-DS -1781 698 1781 698 50 21
-DS 1781 698 1781 -698 50 21
-DS 1781 -698 -1781 -698 50 21
-$PAD
-Sh "P1" R 767 433 0 0 900
-Dr 0 0 0 
-At SMD N 00888000
-Ne 0 ""
-Po 0 -1112 
-$EndPAD
-$PAD
-Sh "P2" R 767 433 0 0 900
-Dr 0 0 0 
-At SMD N 00888000
-Ne 0 ""
-Po 0 1112 
-$EndPAD
-$PAD
-Sh "T1A" R 767 433 0 0 900
-Dr 0 0 0 
-At SMD N 00888000
-Ne 0 ""
-Po -984 -1112 
-$EndPAD
-$PAD
-Sh "T1B" R 767 433 0 0 900
-Dr 0 0 0 
-At SMD N 00888000
-Ne 0 ""
-Po 984 -1112 
-$EndPAD
-$PAD
-Sh "T2A" R 767 433 0 0 900
-Dr 0 0 0 
-At SMD N 00888000
-Ne 0 ""
-Po -984 1112 
-$EndPAD
-$PAD
-Sh "T2B" R 767 433 0 0 900
-Dr 0 0 0 
-At SMD N 00888000
-Ne 0 ""
-Po 984 1112 
-$EndPAD
-$EndMODULE SWITCH_-_SLIDE:_SMD__2P2T_(MSS22D18)
-$EndLIBRARY
+(module "MSS22D18:SWITCH_-_SLIDE%3a_SMD__2P2T_(MSS22D18)" (layer F.Cu) (tedit 595684AF)
+  (attr smd)
+  (fp_text reference Ref** (at 0 -5.08) (layer F.SilkS)
+    (effects (font (thickness 0.15)))
+  )
+  (fp_text value Val** (at 0 0) (layer F.SilkS)
+    (effects (font (thickness 0.15)))
+  )
+  (fp_line (start -4.52374 -1.77292) (end -4.52374 1.77292) (layer F.SilkS) (width 0.127))
+  (fp_line (start -4.52374 1.77292) (end 4.52374 1.77292) (layer F.SilkS) (width 0.127))
+  (fp_line (start 4.52374 1.77292) (end 4.52374 -1.77292) (layer F.SilkS) (width 0.127))
+  (fp_line (start 4.52374 -1.77292) (end -4.52374 -1.77292) (layer F.SilkS) (width 0.127))
+  (pad P1 smd rect (at 0 -2.82448 90) (size 1.94818 1.09982) (layers F.Cu F.Paste F.Mask))
+  (pad P2 smd rect (at 0 2.82448 90) (size 1.94818 1.09982) (layers F.Cu F.Paste F.Mask))
+  (pad T1A smd rect (at -2.49936 -2.82448 90) (size 1.94818 1.09982) (layers F.Cu F.Paste F.Mask))
+  (pad T1B smd rect (at 2.49936 -2.82448 90) (size 1.94818 1.09982) (layers F.Cu F.Paste F.Mask))
+  (pad T2A smd rect (at -2.49936 2.82448 90) (size 1.94818 1.09982) (layers F.Cu F.Paste F.Mask))
+  (pad T2B smd rect (at 2.49936 2.82448 90) (size 1.94818 1.09982) (layers F.Cu F.Paste F.Mask))
+)
