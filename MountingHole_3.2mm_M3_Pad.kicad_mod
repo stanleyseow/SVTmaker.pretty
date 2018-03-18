@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 (module MountingHole_3.2mm_M3_Pad (layer F.Cu) (tedit 56D1B4CB)
   (attr virtual)
   (descr "Mounting Hole 3.2mm, M3")
@@ -6,6 +7,16 @@
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value MountingHole_3.2mm_M3_Pad (at 0 4.2) (layer F.Fab)
+=======
+(module KiCad/Mounting_Holes.pretty:MountingHole_3.2mm_M3_Pad (layer F.Cu) (tedit 5A9C24D8)
+  (descr "Mounting Hole 3.2mm, M3")
+  (tags "mounting hole 3.2mm m3")
+  (attr virtual)
+  (fp_text reference REF** (at -8.22 -0.23) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value MountingHole_3.2mm_M3_Pad (at 0.4 5.1) (layer F.Fab)
+>>>>>>> 707f1bf989192b6aa574b4922592777b059fa10b
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text user %R (at 0.3 0) (layer F.Fab)
