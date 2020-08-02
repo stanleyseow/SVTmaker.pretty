@@ -1,6 +1,7 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-
+*.kicad_pcb linguist-detectable=true
+*.schb linguist-detectable=true
 # Custom for Visual Studio
 *.cs     diff=csharp
 
