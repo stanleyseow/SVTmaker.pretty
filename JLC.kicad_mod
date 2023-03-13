@@ -1,0 +1,11 @@
+(module SVTmaker:SVTLogo_7mm_F.Mask (layer F.Cu) (tedit 617578C0)
+  (fp_text reference J*** (at 0.4 2.7) (layer F.Mask) hide
+    (effects (font (size 1.524 1.524) (thickness 0.3)))
+  )
+  (fp_text value JLC (at 0.6 -0.8) (layer F.Mask) hide
+    (effects (font (size 1.524 1.524) (thickness 0.3)))
+  )
+  (fp_text user JLCJLCJLCJLC (at 0.4 1.05) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.2)))
+  )
+)
